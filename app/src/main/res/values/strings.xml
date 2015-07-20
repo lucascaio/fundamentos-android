@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cadastro de Pessoas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="teste">String teste</string>
+</resources>
