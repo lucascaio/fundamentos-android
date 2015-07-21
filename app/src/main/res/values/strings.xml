@@ -7,4 +7,11 @@
     <string name="userName">User Name</string>
     <string name="password">Password</string>
     <string name="cadastrar_cliente">Cadastrar Cliente</string>
+    <string name="cadastro_garca">Cadastro de Garças e Gaivotas</string>
+    <string name="cadastro_nome">Name of garca</string>
+    <string name="cadastro_idade">Age of garca</string>
+    <string name="cadastro_endereco">Addres of Garca</string>
+    <string name="cadastro_telefone">Phone of Garca</string>
+    <string name="cadastro_peso">Weight</string>
+    <string name="save">Save</string>
 </resources>

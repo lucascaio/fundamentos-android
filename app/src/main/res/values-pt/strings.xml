@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cadastro de Garças</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Opções</string>
+    <string name="teste">String teste</string>
+    <string name="login">Entrar</string>
+    <string name="userName">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="cadastrar_cliente">Cadastrar Cliente</string>
+    <string name="cadastro_Garça">Cadastro de Garças e Gaivotas</string>
+    <string name="cadastro_nome">Nome da Garça</string>
+    <string name="cadastro_idade">Idade da Garça</string>
+    <string name="cadastro_endereco">Endereço da Garça</string>
+    <string name="cadastro_telefone">Telefone da Garça</string>
+    <string name="cadastro_peso">Peso da Garça</string>
+    <string name="save">Salvar</string>
+</resources>
