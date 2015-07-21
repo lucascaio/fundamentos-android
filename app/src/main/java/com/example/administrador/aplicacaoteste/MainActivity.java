@@ -2,6 +2,7 @@ package com.example.administrador.aplicacaoteste;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -19,10 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         ListView listVireCliente = (ListView) findViewById(R.id.listViewCliente);
         ClientListAdapter clientAdapter = new ClientListAdapter(MainActivity.this, clienteNames);
+        listVireCliente.setAdapter(clientAdapter);
     }
 
     private List<Client> getClients() {
-        List<Client> clients = new ArrayList<>();
+        List<Client> clients = new ArrayList<Client>();
         Client lucas = new Client();
         lucas.setName("Lucas");
         lucas.setAge(23);
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         clients.add(garca);
 
         return clients;
+
     }
 
 
